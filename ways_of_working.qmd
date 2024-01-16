@@ -1,7 +1,11 @@
 ---
 title: "Ways of working"
 author: "Corneel den Hartogh"
-format: html
+date: last-modified
+toc: true
+format: 
+  html: default
+  pdf: default
 editor: visual
 ---
 
@@ -156,3 +160,4 @@ Docker is de-facto standard so we will use this as well. We have the concept of 
 -   One general repository with information about the different containerization and lessons learned
 
 ## 
+
