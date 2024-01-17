@@ -3,3 +3,4 @@ Sys.setenv(
   RENV_PATHS_LOCKFILE = file.path("utils/renv.lock")
 )
 source("utils/renv/activate.R")
+source("utils/manage_packages.R")
