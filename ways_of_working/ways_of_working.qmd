@@ -73,7 +73,7 @@ Types should be, if reasonably possible, chosen from the following list:
 | type   | usage                                                           |
 |--------|-----------------------------------------------------------------|
 | fix    | For commits that fix bugs                                       |
-| feat   | For commits that add new functionality                          |
+| add    | For commits that add new functionality                          |
 | temp   | For commits that have temporary code                            |
 | style  | For commits that focus on style improvements                    |
 | update | For commits that primarily update because data has been renewed |
