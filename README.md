@@ -1,8 +1,8 @@
-# ways_of_working
+# Centre Documentation
 
-This is a repo for documentation of CEDA. It is full of Quarto documents, supporting files and output.
+This is a repo for documentation of CEDA. It is full of Quarto documents, supporting files and output. Have fun!
 
-## To see the documents in proper html go to:
+To see the output documents in proper html go to:
 
 -   [OKR](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/okr/OKR.html)
 
