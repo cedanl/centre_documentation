@@ -1,0 +1,70 @@
+---
+title: "Goals"
+author: "Corneel den Hartogh"
+date: last-modified
+toc: true
+format: 
+  html: default
+  pdf: default
+editor: visual
+---
+
+## Goals
+
+This document is about the goals that CEDA strives to achieve.
+
+## Mission
+
+CEDA facilitates the analysis of uniform data in tertiary education with the aim of improving the primary process of education
+
+## Vision / why
+
+Why data analysis?
+
+Why within Npuls / national?
+
+## Data analytics in tertiary education
+
+CEDA facilitates the analysis of uniform data in tertiary education with the aim of improving the primary process of education
+
+-   Uniform data is defined as data that is in principle the same in format for all institutions.
+
+    -   It doesn't need to be publicly available
+
+    -   the actual contents might be institution specific. For instance, the 1CHO 'institution' file is per institution but has the same columns and format for each institution
+
+    -   It doesn't need to be the same for all MBO / HBO / WO educational institutions. For instance, Studielink is used for HBO and WO, but not for MBO. Of course, we strive to be complete and facilitate the data analysis of all sectors.
+
+    -   It doesn't need to be in use at all educational institutions, but it must be at a lot
+
+        -   For instance, if many institutions use a certain tool, this might qualify as well
+
+-   Data analytics is hereby understood as the whole process, from preparation (cleaning, validation, enrichment) to analysis (modelling, statistics) to visualisation (dashboards).
+
+-   The aim to improve education can be interpreted as rather broad
+
+    -   the organisation of education (predictive modelling about student numbers)
+
+    -   the policies of education (diagnostic statistics)
+
+    -   the content of education (learning analytics)
+
+## Subgoals
+
+In order to achieve this goal, CEDA intends to provide the following services: ADD_VISUALS_FROM_PRESENTATION_DAIR
+
+-   data analytics in a box
+
+    -   The goal of these projects is to provide a complete flow from the raw data to an end-user oriented visualisation
+
+-   data analytics out of the box
+
+    -   The above boxes should be made ready-to-use for other data professionals in higher education
+
+    -   Both easy from a technical perspective, as well easy from a practical perspective
+
+-   data analytics as a service
+
+    -   
+
+## Data analytics in a box
