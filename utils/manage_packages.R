@@ -11,8 +11,9 @@ packages_base <- c(
 
 # Set packages in order of load
 packages_cran <- c(
-  "purr",
-  "quarto"
+  "purrr",
+  "quarto",
+  "renv"
 )
 
 ## Combine packages
@@ -25,6 +26,7 @@ options(renv.snapshot.filter = function(project) {
   return(packages_renv)
 })
 
+renv::snapshot(type = "custom")
 renv::restore()
 
 
