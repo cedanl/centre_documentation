@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Corneel den Hartogh">
-<meta name="dcterms.date" content="2024-01-17">
+<meta name="dcterms.date" content="2024-01-24">
 
 <title>Ways of working</title>
 <style>
@@ -49,24 +49,26 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#ways-of-working" id="toc-ways-of-working" class="nav-link active" data-scroll-target="#ways-of-working">Ways of working</a></li>
   <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
-  <li><a href="#npuls-guidelines" id="toc-npuls-guidelines" class="nav-link" data-scroll-target="#npuls-guidelines">Npuls Guidelines</a></li>
-  <li><a href="#sharing-progress" id="toc-sharing-progress" class="nav-link" data-scroll-target="#sharing-progress">Sharing progress</a></li>
-  <li><a href="#working-together" id="toc-working-together" class="nav-link" data-scroll-target="#working-together">Working together</a></li>
-  <li><a href="#jira-guidelines" id="toc-jira-guidelines" class="nav-link" data-scroll-target="#jira-guidelines">JIRA guidelines</a></li>
+  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a>
+  <ul class="collapse">
+  <li><a href="#sharing-progress-asynchronously" id="toc-sharing-progress-asynchronously" class="nav-link" data-scroll-target="#sharing-progress-asynchronously">Sharing progress asynchronously</a></li>
+  <li><a href="#repository-guidelines" id="toc-repository-guidelines" class="nav-link" data-scroll-target="#repository-guidelines">Repository guidelines</a></li>
   <li><a href="#open-source" id="toc-open-source" class="nav-link" data-scroll-target="#open-source">Open Source</a></li>
+  </ul></li>
   <li><a href="#data-analytics" id="toc-data-analytics" class="nav-link" data-scroll-target="#data-analytics">Data analytics</a>
   <ul class="collapse">
   <li><a href="#data-analytics-guidelines-repositories" id="toc-data-analytics-guidelines-repositories" class="nav-link" data-scroll-target="#data-analytics-guidelines-repositories">Data analytics guidelines: Repositories</a></li>
   <li><a href="#data-analytics-guidelines-language" id="toc-data-analytics-guidelines-language" class="nav-link" data-scroll-target="#data-analytics-guidelines-language">Data analytics guidelines: Language</a></li>
   <li><a href="#data-analytics-guidelines-content-of-repository" id="toc-data-analytics-guidelines-content-of-repository" class="nav-link" data-scroll-target="#data-analytics-guidelines-content-of-repository">Data analytics guidelines: Content of repository</a></li>
   <li><a href="#data-analytics-guidelines-project" id="toc-data-analytics-guidelines-project" class="nav-link" data-scroll-target="#data-analytics-guidelines-project">Data analytics guidelines: Project</a></li>
+  <li><a href="#data-analytics-guidelines-steps-towards-goals" id="toc-data-analytics-guidelines-steps-towards-goals" class="nav-link" data-scroll-target="#data-analytics-guidelines-steps-towards-goals">Data analytics guidelines: Steps towards goals</a></li>
   </ul></li>
   <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering">Data engineering</a>
   <ul class="collapse">
   <li><a href="#data-engineering-guidelines-activities" id="toc-data-engineering-guidelines-activities" class="nav-link" data-scroll-target="#data-engineering-guidelines-activities">Data engineering guidelines: Activities</a></li>
   <li><a href="#data-engineering-guidelines-packages" id="toc-data-engineering-guidelines-packages" class="nav-link" data-scroll-target="#data-engineering-guidelines-packages">Data engineering guidelines: Packages</a></li>
   <li><a href="#data-engineering-guidelines-containerization" id="toc-data-engineering-guidelines-containerization" class="nav-link" data-scroll-target="#data-engineering-guidelines-containerization">Data engineering guidelines: Containerization</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#data-engineering-guidelines-integration" id="toc-data-engineering-guidelines-integration" class="nav-link" data-scroll-target="#data-engineering-guidelines-integration">Data engineering guidelines: Integration</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ways_of_working.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -92,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 17, 2024</p>
+      <p class="date">January 24, 2024</p>
     </div>
   </div>
   
@@ -104,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="ways-of-working" class="level2">
 <h2 class="anchored" data-anchor-id="ways-of-working">Ways of working</h2>
-<p>CEDA is a project within the pilot hub ‘Studiedata &amp; AI’ (Educational data &amp; AI) of the Npuls program. ADD_LINK This repository is used to document the ways of working within CEDA. This document discusses what type of activities CEDA executes and how this is done. Another document will discuss what our goals are and why these are the goals. In addition, the Npuls program has also standard guidelines and procedures. These are not defined here.</p>
+<p>CEDA is a project within the pilot hub ‘Studiedata &amp; AI’ (Educational data &amp; AI) of the Npuls program. ADD_LINK This repository is used to document the ways of working within CEDA. This document discusses what type of activities CEDA executes and how this is done. Another document will discuss what our goals are and why these are the goals. In addition, there are certain procedural basics that are needed for collaboration, like getting access etc. These are discussed in the basics document ADD_LINK.</p>
 </section>
 <section id="activities" class="level2">
 <h2 class="anchored" data-anchor-id="activities">Activities</h2>
@@ -133,24 +135,11 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>These activities all have their own specific guidelines and requirements. However, some overarching ways of work can be defined.</p>
 </section>
-<section id="npuls-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="npuls-guidelines">Npuls Guidelines</h2>
-<p>Most of the work within Npuls is done via secondment. When an agreement is reached, Flex will contact you about the necessary paperwork to set you up. When this is done, you have to fill in your hours via SAM, for instructions see: . ADD_LINKS. You will get a SURF account etc, but we can also give you access to shared spaces via your institutional account if preferred.</p>
-</section>
-<section id="sharing-progress" class="level2">
-<h2 class="anchored" data-anchor-id="sharing-progress">Sharing progress</h2>
-<p>Since we all have other responsibilities (at our primary employer) and don’t see each other daily, it is important to share our progress transparently and asynchronously. We do this via a Kanban board in JIRA ADD_LINK. You can see all the stories in the pilot hub, but is advised to focus on those of CEDA or only your own stories in CEDA.</p>
-</section>
-<section id="working-together" class="level2">
-<h2 class="anchored" data-anchor-id="working-together">Working together</h2>
-<ul>
-<li><p>Bila’s with project lead, half hour per 16 working hours</p></li>
-<li><p>Montly office day / afternoon with sprint in Utrecht</p></li>
-<li><p>Asynchronous communication? Teams / Slack</p></li>
-</ul>
-</section>
-<section id="jira-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="jira-guidelines">JIRA guidelines</h2>
+<section id="general" class="level1">
+<h1>General</h1>
+<section id="sharing-progress-asynchronously" class="level2">
+<h2 class="anchored" data-anchor-id="sharing-progress-asynchronously">Sharing progress asynchronously</h2>
+<p>Since we all have other responsibilities (at our primary employer) and don’t see each other daily, it is important to share our progress transparently and asynchronously. See the basics document for a link</p>
 <p>For guidelines per story see:</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -169,16 +158,68 @@ Task guidelines
 <li>Always use a label to signify the ‘product’ the task contributes to</li>
 <li>A clear description per task of what is expected in max 5 sentences</li>
 <li>A task should take approximately a day of actual work</li>
-<li>A checklist is often helpful to monitor progress</li>
+<li>Use the checklist or comments to document details and show progress</li>
 </ul>
 </div>
 </div>
 </div>
 </section>
+<section id="repository-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="repository-guidelines">Repository guidelines</h2>
+<p>CEDA strives to have clear names for repositories since they might be growing.</p>
+<p>All commit messages should be in British English and have the style:</p>
+<p>&lt;type&gt;: &lt;specification&gt;</p>
+<p>Types should be, if reasonably possible, chosen from the following list:</p>
+<table class="table">
+<caption>Commit style</caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 89%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>type</th>
+<th>usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>fix</td>
+<td>For commits that fix bugs</td>
+</tr>
+<tr class="even">
+<td>add</td>
+<td>For commits that add new functionality</td>
+</tr>
+<tr class="odd">
+<td>temp</td>
+<td>For commits that have temporary code</td>
+</tr>
+<tr class="even">
+<td>style</td>
+<td>For commits that focus on style improvements</td>
+</tr>
+<tr class="odd">
+<td>update</td>
+<td>For commits that primarily update because data has been renewed</td>
+</tr>
+<tr class="even">
+<td>del</td>
+<td>For commits that primarily remove scripts or code</td>
+</tr>
+<tr class="odd">
+<td>move</td>
+<td>For commits that primarily move scripts and code</td>
+</tr>
+</tbody>
+</table>
+<p>This makes commits much more easy to navigate and overview.</p>
+</section>
 <section id="open-source" class="level2">
 <h2 class="anchored" data-anchor-id="open-source">Open Source</h2>
 <p>Open source is more than publishing code on github. Also, it is not only a technical or marketing choice but aligned with our place in the public sector. ADD_LINK to document about goals. Practically this means that there are specific guidelines set up for public code in public sector. CEDA strives to conform to these guidelines.</p>
 <p>ADD_LINK to Publiccode.yaml</p>
+</section>
 </section>
 <section id="data-analytics" class="level1">
 <h1>Data analytics</h1>
@@ -213,50 +254,57 @@ Task guidelines
 <section id="data-analytics-guidelines-content-of-repository" class="level2">
 <h2 class="anchored" data-anchor-id="data-analytics-guidelines-content-of-repository">Data analytics guidelines: Content of repository</h2>
 <ol type="1">
-<li>Every repository has synthetic or dummy ‘start’ data on which the code runs successfully</li>
-<li>Every repository is ‘complete’. It has all the (synthetic) data, necessary metadata, documentation, etc within.</li>
-<li>Every repository has a clear structure in line with the language-specific best practices for data science
+<li><p>Every repository has code that runs successfully</p></li>
+<li><p>There is a config file which has a setting for at least every institution-specific setting</p>
+<ul>
+<li>For instance, links to file locations, the name or BRIN of the institution, etc</li>
+</ul></li>
+<li><p>A build file. All code can be run (see 1) by triggering one file</p></li>
+<li><p>An instruction file which explains at least the goal of the data manipulation in this repository and the context (how the acquire the start data or a reference to a working example of a final product).</p></li>
+<li><p>Every repository has a clear structure in line with the language-specific best practices for data science</p>
 <ul>
 <li>As CEDA we strive to define our own language-specific structure</li>
 </ul></li>
-<li>A build file. All code can be run (see 1) by triggering one file</li>
-<li>Data dictionaries at start and end
+<li><p>Data dictionaries at start and end</p>
 <ul>
 <li>All the start data has a clear dictionary with metadata and meaning. This also goes for the resulting product
 <ul>
 <li>As CEDA we strive to have common dictionaries based on the type of repository (data, analysis or information) regardless of specific language</li>
 </ul></li>
 </ul></li>
-<li>There is a config file which has a setting for at least every institution-specific setting
-<ul>
-<li>For instance, links to file locations, the name or BRIN of the institution, etc</li>
-</ul></li>
-<li>An instruction file which explains at least the goal of the data manipulation in this repository and the context (how the acquire the start data or a reference to a working example of a final product).</li>
-<li>Well styled code, also language specific
+<li><p>Well styled code, also language specific</p>
 <ul>
 <li>As CEDA we strive to more precise guidelines about code, in order to make repositories more alike each other</li>
 </ul></li>
-<li>All the data files at start and end of the repository are automatically checked by validation rules
+<li><p>All files are machine-readable (.py, .R, .csv., .yaml, md, qmd).</p></li>
+<li><p>All the data files at start and end of the repository are automatically checked by validation rules</p>
 <ul>
 <li>As CEDA we strive to have uniform data validation rules</li>
 </ul></li>
-<li>The main language in a repository is English. This goes for code, comments, documentation and variable names. For specific terms a glossary can be provided.
+<li><p>Every repository has synthetic or dummy ‘start’ data</p></li>
+<li><p>The main language in a repository is English. This goes for code, comments, documentation and column names. For specific terms a glossary can be provided.</p>
 <ul>
 <li>As CEDA we strive to align the glossaries over all repositories</li>
+<li>Something like column names might be difficult / confusing for users (at first).</li>
 </ul></li>
-<li>All files are machine-readable (.py, .R, .csv., .yaml, md, qmd).</li>
+<li><p>Every repository is ‘complete’. It has synthetic data, necessary metadata, config, documentation, etc, within.</p></li>
 </ol>
-<p>Q: Am I missing something? Or can things be removed?</p>
-<p>Q: What about the order?</p>
+<p>Question: Am I missing something? Or can things be removed?</p>
+<p>Question: What about the order?</p>
 </section>
 <section id="data-analytics-guidelines-project" class="level2">
 <h2 class="anchored" data-anchor-id="data-analytics-guidelines-project">Data analytics guidelines: Project</h2>
 <p>One project will often have more than one repository (for instance: a data product repository and an information product repository). So in addition to the repository, there are additional goals:</p>
 <ol type="1">
-<li>A working demo example oriented at end-users based of synthetic data</li>
+<li>A working demo example oriented at end-users based on synthetic or dummy data</li>
 <li>A blog oriented at end-users to describe the whole project, some interesting real world insights about your own institution and potentially something about the embedding within your own institution</li>
 <li>One or more workshops with data science professionals from other educational institutions to get it working for them</li>
 </ol>
+</section>
+<section id="data-analytics-guidelines-steps-towards-goals" class="level2">
+<h2 class="anchored" data-anchor-id="data-analytics-guidelines-steps-towards-goals">Data analytics guidelines: Steps towards goals</h2>
+<p>Of course, data analytics is never done. The list above at contents of repository does not need to be achieved 100% in order to have a successful project. In addition, the starting point of specific sub-projects will differ.</p>
+<p>Therefore, every lead of a subproject discusses with the CEDA project lead what the next few steps are (no need to plan the whole thing in detail, since we work agile).</p>
 </section>
 </section>
 <section id="data-engineering" class="level1">
@@ -265,7 +313,8 @@ Task guidelines
 <h2 class="anchored" data-anchor-id="data-engineering-guidelines-activities">Data engineering guidelines: Activities</h2>
 <p>The first set of repositories is about getting from raw data to useful information products. The data engineering part is about making it easy to set up and develop these repositories and making it easy to share and re-use this.</p>
 <ul>
-<li><p>Developing useful functions and packages that can be used in the data analytics repositories</p></li>
+<li><p>Developing useful functions and packages that can be used to run code from the data analytics repositories</p></li>
+<li><p>Developing useful functions and packages that can be used within the data analytics repositories</p></li>
 <li><p>Setting up Docker containers and Docker config files to support the usage other data science professionals usage of these repositories</p></li>
 <li><p>Experiment and potentially facilitate connection to SURF tooling and other open source solutions</p></li>
 </ul>
@@ -285,11 +334,12 @@ Task guidelines
 <p>Docker is de-facto standard so we will use this as well. We have the concept of analytics-in-a-box-in-a-box-… highlighting the several possibilities of boxing.</p>
 <ul>
 <li><p>For instance, taking a data analytics repository, allowing the user to override the config settings to include local files, run all the code and provide the user locally with the resulting ‘data product’</p></li>
-<li><p>One general repository with information about the different containerization and lessons learned</p></li>
+<li><p>An important element in containerization is to find the limits of what we can get to work and document also the ‘failures’. This is important, because CEDA could, if deemed useful, hire an external professional for advanced data engineering.</p></li>
 </ul>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="data-engineering-guidelines-integration" class="level2">
+<h2 class="anchored" data-anchor-id="data-engineering-guidelines-integration">Data engineering guidelines: Integration</h2>
+<p>This is currently out-of-scope. SURF has already several services for research data storage, cloud services, etc. In the coming months we will connect with these groups to see what is already available, but no practical engineering will be done.</p>
 </section>
 </section>
 
