@@ -1,19 +1,13 @@
 
 # Configure base packages, because we load all packages from .Rprofile
-packages_base <- c(
-  "base",
-  "methods",
-  "utils",
-  "stats",
-  "graphics",
-  "grDevices",
-  "datasets")
+packages_base <- rownames(installed.packages(priority = "base"))
 
 # Set packages in order of load
 packages_cran <- c(
-  "purrr",
+  "renv",
+  "knitr",
   "quarto",
-  "renv"
+  "purrr"
 )
 
 ## Combine packages
@@ -23,10 +17,25 @@ packages_renv <- c(packages_cran)
 
 # Configure renv
 options(renv.snapshot.filter = function(project) {
-  return(packages_renv)
+
+  #'*INFO* renv only puts imports in the lockfile, not suggests. Here is some code to include
+  # this as well if necessary. One could also add more packages directly to packages_cran
+  # Use purrr to apply the function to each package and combine the results
+  # imports_list <- purrr::map(packages_renv,
+  #                           ~tools::package_dependencies(.x, which = c("Suggests"))
+  # )
+  # imports_vec <- unlist(imports_list)
+  #
+  # # Combine the original packages and the suggests, ensuring uniqueness
+  # combined_packages <- unique(c(packages_renv, imports_vec))
+
+  combined_packages <- packages_renv
+
+  return(combined_packages)
 })
 
 renv::snapshot(type = "custom")
+
 renv::restore()
 
 
@@ -38,4 +47,4 @@ suppressMessages(purrr::walk(packages, ~library(.x,
                                                 warn.conflicts = warn_conflicts)))
 
 
-rm(packages, packages_base, packages_cran, packages_renv)
+rm(packages, packages_base, packages_cran, packages_renv, warn_conflicts)
