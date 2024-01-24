@@ -111,6 +111,8 @@ Q: Should we include other tooling or have at some point a survey about tooling?
 
 ## Data analytics guidelines: Content of repository
 
+Based upon: <https://github.com/publiccodenet/standard/releases/>
+
 1.  Every repository has code that runs successfully
 
 2.  There is a config file which has a setting for at least every institution-specific setting
