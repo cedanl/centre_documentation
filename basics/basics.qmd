@@ -47,22 +47,26 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
 -   Asynchronous contact with each other within the project is in the pilot hub done via Teams
 
-    -   QUESTION: Should we use this as well?
+    -   QUESTION: Should we use this as well? Or something else?
 
 -   1-on-1 meetings with the project lead bi-weekly half an hour
 
 -   QUESTION: How often do we see each other and for how long? Every month (half) a day in Utrecht? Six weeks?
 
+-   QUESTION: Whatsapp / Signal group for random stuff?
+
 ## First Steps
 
 -   See the ways-of-working document for the general expectations. Since we work agile there is no need to plan your whole project in detail.
 
-    -   SUGGESTION: make a document of max 1 A4 with bullets of the minimum you want to achieve in your project the coming 6 months.
+    -   SUGGESTION: make a document of max 1 A4 with bullets of the minimum viable product you want to achieve in your project the coming 6 months
 
         -   Define three 'stories' (a story is approximately a day work) with the specific first steps you want to take
 
 -   In addition, not everything has to be done (good). The most important 'business' goal is to get stuff working and share this with other data professionals in education.
 
--   The data engineering and the centre are not that crystallized yet.
+-   The data engineering and the centre are not that crystallized yet, but individual members can also define first steps and general mvp for comings six months.
+
+-   QUESTION: We need to have a kick-off of some sort. However, we are still in the hiring process, so it not yet clear how we can invite. Maybe the 'kick-off' after the first month? So end of February, start of March?
 
 ## 

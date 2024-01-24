@@ -36,7 +36,7 @@ These activities all have their own specific guidelines and requirements. Howeve
 
 ## Sharing progress asynchronously
 
-Since we all have other responsibilities (at our primary employer) and don't see each other daily, it is important to share our progress transparently and asynchronously. See the basics document for a link
+Since we all have other responsibilities (at our primary employer) and don't see each other daily, it is important to share our progress transparently and asynchronously. See the basics document for a link.
 
 For guidelines per story see:
 
