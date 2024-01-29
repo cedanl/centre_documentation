@@ -27,6 +27,8 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
 -   You don't need to use the Npuls account for much else, although you can also have a look at the SURF [intranet](https://surf.sharepoint.com/) or [Confluence](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
 
+-   They might ask if you want a laptop for your work at Npuls. Since most of you will only work 8 hours per week for 6 months, this seems to be an overkill.
+
 ## Within CEDA
 
 -   We work mainly within an [open source github project](https://github.com/ed2c) where you get write-permissions. Let someone know if you want access on a specific account. (PS: the name ed2c refers to the old working title of ceda).
@@ -37,9 +39,13 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
     -   For guidelines on commits see ways of working ADD_LINK
 
+    -   For Smartgit we have some documentation available about installation and best practices. Let Corneel know if you are interested.
+
 -   Within the pilot hub Study Data & AI, we keep track of our work on a Kanban Board. For this, as CEDA we have filters for [CEDA](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&selectedIssue=NPLSSTAI-8&quickFilter=2057) (issues within our project only) and [CEDA only me](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&quickFilter=2058) (my issues only).
 
     -   For guidelines of the usage of the Kanboard board, see ways of working ADD_LINK
+
+-   The project lead will invite all of you with your institutional emailadresses. If you prefer other emailadresses, let the project lead know.
 
 ## Collaboration
 
@@ -59,9 +65,9 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
 -   See the ways-of-working document for the general expectations. Since we work agile there is no need to plan your whole project in detail.
 
-    -   SUGGESTION: make a document of max 1 A4 with bullets of the minimum viable product you want to achieve in your project the coming 6 months
+    -   **SUGGESTION:** **make a document of max 1 A4 with bullets of the minimum viable product you want to achieve in your project the coming 3 months**
 
-        -   Define three 'stories' (a story is approximately a day work) with the specific first steps you want to take
+        -   [Define three 'stories' (a story is approximately a day work) with the specific first steps you want to take]{.underline}
 
 -   In addition, not everything has to be done (good). The most important 'business' goal is to get stuff working and share this with other data professionals in education.
 
