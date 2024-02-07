@@ -76,9 +76,21 @@ This makes commits much more easy to navigate and overview.
 
 ## Open Source
 
-Open source is more than publishing code on github. Also, it is not only a technical or marketing choice but aligned with our place in the public sector. ADD_LINK to document about goals. Practically this means that there are specific guidelines set up for public code in public sector. CEDA strives to conform to these guidelines.
+Open source is more than publishing code on github. Also, it is not only a technical or marketing choice but aligned with our place in the public sector. See our goals document for more information (NOT YET AVAILABLE). Practically this means that there are specific guidelines set up for public code in public sector. CEDA strives to conform to these guidelines.
 
-ADD_LINK to Publiccode.yaml
+See for instance, the omprehensive general standard from [public code](https://github.com/publiccodenet/standard/releases). Regarding open source, we are in close contact with the [SURF OSPO](https://www.surf.nl/en/news/kick-off-community-open-source-program-office-ospo) and others within Npuls.
+
+Currently, there is no set SURF policy regarding open source. Until there is, we have a couple of guidelines and considerations:
+
+-   For now, we will use the MIT licence. It is widely used and respected and easy to interpret.
+
+-   For now, we will publish on Github. It is a commercial US-based platform, but the most widely used for open source software and it has many features. Potentially, alternatives like <https://code.europa.eu/> and <https://opencode.de/> might be considered.
+
+    -   Within Github you don't have to allow Github to use your code for Github Copilot. Go in the top right corner to your avatar and click on 'Copilot'. Make sure there is no checkmark at:
+
+    -   ![](images/clipboard-3266355048.png)
+
+-   A drawback of open source is that, even with the limitations of this license and not offically allowing Github to use the code for Copilot, code might still be scraped without permission for commercial purposes like monetizing LLMs. This an inherent drawback about open source.
 
 # Data analytics
 
