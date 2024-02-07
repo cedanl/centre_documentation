@@ -23,7 +23,9 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
 -   As part of the Npuls program, there is a request to fill in hours via [SAM](https://sam.surf.nl). This is done with your Npuls account.
 
-    -   A link to the guide for keeping track of hours for 2024 ADD_LINK
+    -   A link to the guide for keeping track of hours for 2024 ADD_LINK (not yet available)
+
+    -   You only have to add the hours you actually work, so no holidays or sick days (that still goes via your regular employer)
 
 -   You don't need to use the Npuls account for much else, although you can also have a look at the SURF [intranet](https://surf.sharepoint.com/) or [Confluence](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
 
