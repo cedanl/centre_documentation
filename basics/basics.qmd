@@ -27,7 +27,7 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
     -   You only have to add the hours you actually work, so no holidays or sick days (that still goes via your regular employer)
 
--   You don't need to use the Npuls account for much else, although you can also have a look at the SURF [intranet](https://surf.sharepoint.com/) or [Confluence](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
+-   Access to Teams and JIRA also goes via your Npuls / SURF account, ask the project lead for an invite link to the 'Studiedata team' within the larger SURF environment. You can also have a look at the SURF [intranet](#0) or [Confluence](#0).
 
 -   They might ask if you want a laptop for your work at Npuls. Since most of you will only work 8 hours per week for 6 months, this seems to be an overkill.
 
