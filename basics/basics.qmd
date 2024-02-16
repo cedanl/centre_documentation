@@ -27,7 +27,7 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
     -   You only have to add the hours you actually work, so no holidays or sick days (that still goes via your regular employer)
 
--   Access to Teams and JIRA also goes via your Npuls / SURF account, ask the project lead for an invite link to the 'Studiedata team' within the larger SURF environment. You can also have a look at the SURF [intranet](#0) or [Confluence](#0).
+-   Access to Teams and JIRA also goes via your Npuls / SURF account, ask the project lead for an invite link to the 'Studiedata team' within the larger SURF environment. You can also have a look at the SURF [intranet](https://surf.sharepoint.com/), the [Npuls area there](https://surf.sharepoint.com/sites/m365-NplsStAi-team/) and [Confluence](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
 
 -   They might ask if you want a laptop for your work at Npuls. Since most of you will only work 8 hours per week for 6 months, this seems to be an overkill.
 
@@ -43,7 +43,7 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
     -   For Smartgit we have some documentation available about installation and best practices. Let Corneel know if you are interested.
 
--   Within the pilot hub Study Data & AI, we keep track of our work on a Kanban Board. For this, as CEDA we have filters for [CEDA](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&selectedIssue=NPLSSTAI-8&quickFilter=2057) (issues within our project only) and [CEDA only me](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&quickFilter=2058) (my issues only).
+-   Within the pilot hub Study Data & AI, we keep track of our work on a Kanban Board. For this, as CEDA we have filters for [CEDA](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&selectedIssue=NPLSSTAI-8&quickFilter=2057) (issues within our project only) and [CEDA only me](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&quickFilter=2058) (only your own stories).
 
     -   For guidelines of the usage of the Kanboard board, see ways of working ADD_LINK
 
