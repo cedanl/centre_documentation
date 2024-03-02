@@ -11,7 +11,7 @@ editor: visual
 
 ## Intro
 
-CEDA stands for Centre for Educational Data Analytics. It is a project within the pilot hub 'Studiedata & AI' (Educational data & AI) of the Npuls programme. ADD_LINK This document is for the basics to get to workin within CEDA. In order to be succinct the document is written in directive language, however, the intention is to support and enable everyone to spend time on the fun things. Many of the guidelines are derived from SURF or the Npuls programme.
+CEDA stands for Centre for Educational Data Analytics. It is a project within the pilot hub 'Studiedata & AI' (Educational data & AI) of the Npuls programme. ADD_LINK This document is for the basics to get working within CEDA. In order to be succinct the document is written in directive language, however, the intention is to support and enable everyone to spend time on the fun things. Many of the guidelines are derived from SURF or the Npuls programme.
 
 ## General
 
@@ -47,7 +47,7 @@ CEDA stands for Centre for Educational Data Analytics. It is a project within th
 
     -   For guidelines of the usage of the Kanboard board, see ways of working ADD_LINK
 
--   The project lead will invite all of you with your institutional emailadresses. If you prefer other emailadresses, let the project lead know.
+-   The project lead will invite all of you with your institutional and SURF email-adresses. If you prefer other emailadresses, let the project lead know.
 
 ## Collaboration
 
