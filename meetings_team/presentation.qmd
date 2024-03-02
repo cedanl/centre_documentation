@@ -1,0 +1,195 @@
+---
+title: "CEDA LIVE - Part 1"
+subtitle: "The Flux Nexus"
+#author: "Corneel den Hartogh"
+toc: true
+toc-depth: 1
+toc-title: "Inhoud vanmiddag"
+mainfont: "GeneralSans-Regular"
+format: 
+  revealjs:
+    logo: "logo.jpg"
+    css: "logo.css"
+    mainfont: "GeneralSans-Regular"
+
+editor: visual
+---
+
+# CEDA {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## CEDA?! ~~EDCC~~
+
+CEDA staat voor Centre for Educational Data Analytics. Het is project binnen de pilot-hub 'Studiedata & AI' van het Npuls programma.
+
+![](images/5.-Organogram-Npuls-1536x864.png.webp){.r-stretch fig-align="center"}
+
+::: right-align
+Moving Education.
+:::
+
+# Problem Space {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## Problem Space
+
+::: columns
+::: {.column width="60%"}
+-   Er is binnen instellingen steeds meer data.
+
+-   De behoefte aan snelle (real time) inzichten en geavanceerde analyses groeit.
+
+-   Geavanceerde analyses(prognoses, voorspelmodellen,AI) vergen een andere manier van werken met data.
+:::
+
+::: {.column width="40%"}
+::: center-container
+![](images/clipboard-2647659104.png)
+:::
+:::
+:::
+
+## Problem Space
+
+::: columns
+::: {.column width="40%"}
+![](images/clipboard-1643436941.png)
+:::
+
+::: {.column width="60%"}
+-   Diverse instellingen experimenteren momenteel op dit gebied met alle aanloopproblemen van dien.
+
+-   Daarbij zijn lokale oplossingen vaak moeilijk schaalbaar, zorgen ze voor dubbel werk en maken ze uitwisseling van kennis en methodiek onnodig moeilijk.
+:::
+:::
+
+## Solution Space
+
+::: columns
+::: {.column width="50%"}
+![](box.png)
+:::
+
+::: {.column width="50%"}
+![](box2.png)
+:::
+:::
+
+::: center
+Inpakken & Uitpakken
+:::
+
+## Eerste serie PoCs
+
+-   3 maanden zelf knallen! –\> Minimum Viable Product
+
+-   3 maanden delen en doorontwikkelen met collega's van instellingen en elkaar
+
+-   3 Data Science PoCs, 1 data engineering PoC
+
+    -   Bram (ééncijfer Python package) en Corneel (ééncijfer R-Tableau pipeline) zijn in deze secundair
+
+# Minimum Viable Product {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## MVP: Show-n-Tell
+
+::: center-container
+![](images/yes-show-n.jpg)
+:::
+
+## MVP: Why?
+
+-   The primary goal of the **minimum viable product (MVP)** is to always minimize time and effort wasted by testing how the market reacts to your idea before building the complete product ([link](https://www.productboard.com/glossary/minimum-viable-product-mvp/))
+-   A MVP is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development ([link](https://en.wikipedia.org/wiki/Minimum_viable_product))
+-   Agile, wendbaar, innovatie, etc
+
+## MVP: What?
+
+-   Minimum –\> Wat is het kleinste dat je kunt opleveren dat waarde toevoegt voor gebruikers?
+
+-   Viable –\> Wat weet je zeker dat je dit zelf kunt de komende maanden? Welke uitdagingen zijn niet strikt noodzakelijk
+
+-   Product –\> Open source code die gerund kan worden\*
+
+\*[Product richtlijnen PoC](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/ways_of_working/ways_of_working.html#data-analytics-guidelines-content-of-repository)
+
+\*[Product richtlijnen data engineering](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/ways_of_working/ways_of_working.html#data-engineering-guidelines-activities)
+
+Bespreek elkaars plannetje in koppeltjes van twee :-)
+
+## MVP: Any updates?
+
+::: center-container
+![](images/fyKX.gif)
+:::
+
+# Pauze {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## Pauze
+
+![](images/istockphoto-1097730450-612x612.jpg)
+
+Coming up next:
+
+-   Praktisch
+
+-   Bonus & Borrel
+
+# Praktisch {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## Praktisch: JIRA
+
+-   Gebruik EPIC, label en omschrijving
+
+-   Deel in paar taken dagen ongeveer een dag
+
+-   Voel je vrij om gebruik te maken van checklist, opmerkingen en tags
+
+-   [Link](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&selectedIssue=NPLSSTAI-8&quickFilter=2057)
+
+    -   Zelf een story aanmaken (kijkend naar tijd?)
+
+## Praktisch: Uren invullen
+
+-   [Toelichting](https://surf-my.sharepoint.com/:p:/g/personal/aram_verweij_surf_nl/EVRu0C-K0qtHvJ6spdSfdL0B8O8a-EYyoVsbUOZr82fXsw?e=U1pcqY)
+-   [Link](https://sam.surf.nl/?qvAutoInloggen=yes&qvCrc=VFciKkcbkkfdkaii&qvId=4831044&a=b,b,b&=)
+-   Korte demonstratie door Bram
+
+## Praktisch: Communicatie tussen ons
+
+-   Bila's
+-   Teams / Mail / Whatsapp / Signal
+-   Live?
+    -   [Special event: woensdag 24 april]{.underline}
+        -   [Link naar Meetup voor Jenny Bryan 17:15](https://www.meetup.com/nl-NL/rladies-utrecht/events/299191287/)
+        -   Eerder op die dag meeten?
+            -   Dan plan maken voor eerste workshop
+    -   Hoe vaak meeten? --\> Per maand
+-   **26 maart!** --\> Corneel checkt of er ruimte beschikbaar is
+
+# Bonus & Borrel {background-image="npuls-logo-black-only.png" background-size="750px" background-repeat="no-repeat" background-position="center" background-opacity="0.15"}
+
+## Bonusmateriaal: Gedeelde toekomst {.smaller}
+
+-   Verkenning MBO uitvalmodel met [Hutspot](https://hutspot.nl/) en [datacoalitie](https://datagedrevenonderzoekmbo.nl/)
+
+-   Missie & Visie CEDA met [service designer](https://informaat.nl/nl/)
+
+-   Architectuur afstemming zoals [HORA](https://www.surf.nl/en/higher-education-reference-architecture-hora) en [HOSA](https://www.surf.nl/hoger-onderwijs-sector-architectuur-hosa)
+
+-   Technische ondersteuning zoals [SURFcumulus](https://www.surf.nl/diensten/surfcumulus#video_text_70501) en [Object Store](https://www.surf.nl/diensten/object-store) --> echte groei-vector
+
+-   Open source met [SURF OSPO](https://www.surf.nl/en/news/kick-off-community-open-source-program-office-ospo)
+
+-   Data van ketenpartners [DUO](https://duo.nl/particulier/) en [Studielink](https://www.studielink.nl/)
+
+-   Learning Analytics [omgeving](https://www.surf.nl/experimenteeromgeving-learning-analytics) en [best practices](https://npuls.nl/actueel/verkenning-van-learning-analytics-in-het-nederlandse-onderwijs-best-practices-en-waardevolle-lessen/) binnen de pilot-hub
+
+-   [Gesprekken met collega's van instellingen in MBO, HBO en WO]{.underline}
+
+
+## Bonusmateriaal: Concrete plannen
+
+\~2 maanden: Recruteren 'uitpakkers' van jullie informatieproducten
+
+\~3 maanden: Call voor twee serie PoCs 'inpakkers'
+
+\~3 maanden: Potentieel externe inhuur voor bijv. open source dashboarding

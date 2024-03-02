@@ -1,0 +1,48 @@
+.reveal .slide-logo {
+  height: 300px !important;
+  width: 300px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  right: 0px !important;
+  z-index: 0 !important;
+}
+
+.reveal img {
+  margin: var(--r-block-margin) -12;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reveal h1 {
+  text-align: center;
+  font-family: "GeneralSans-Semibold";"
+}
+
+.right-align {
+  text-align: right;
+  margin-right: 12px;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('fonts/GeneralSans-Semibold.woff2') format('woff2'),
+       url('fonts/GeneralSans-Semibold.woff') format('woff'),
+       url('fonts/GeneralSans-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
+       url('../fonts/GeneralSans-Regular.woff') format('woff'),
+       url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
