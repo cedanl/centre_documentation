@@ -78,7 +78,7 @@ This makes commits much more easy to navigate and overview.
 
 Open source is more than publishing code on github. Also, it is not only a technical or marketing choice but aligned with our place in the public sector. See our goals document for more information (NOT YET AVAILABLE). Practically this means that there are specific guidelines set up for public code in public sector. CEDA strives to conform to these guidelines.
 
-See for instance, the omprehensive general standard from [public code](https://github.com/publiccodenet/standard/releases). Regarding open source, we are in close contact with the [SURF OSPO](https://www.surf.nl/en/news/kick-off-community-open-source-program-office-ospo) and others within Npuls.
+See for instance, the omprehensive general standard from [public code](https://github.com/publiccodenet/standard/releases). Or the guidelines of Github themselves regarding [repository quality](https://github.com/github/.github). Regarding open source, we are in close contact with the [SURF OSPO](https://www.surf.nl/en/news/kick-off-community-open-source-program-office-ospo) and others within Npuls. You can also see tips and tricks from the [OSPO-NL Kennisbank](https://ospo-nl.github.io/kennisbank/best-practices/).
 
 Currently, there is no set SURF policy regarding open source. Until there is, we have a couple of guidelines and considerations:
 
