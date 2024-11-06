@@ -149,7 +149,10 @@ Based upon: [public code guidelines](https://htmlpreview.github.io/?https://gith
 
 7.  Well styled code, also language specific.
 
-    -   As CEDA we strive to more precise guidelines about code, in order to make repositories more alike each other
+    -   Within in R the [lintr](https://lintr.r-lib.org/) package helps to conform to the tidyverse styleguide
+        -   TODO: Add additional rules to lintr
+    -   With Python the [ruff](https://github.com/astral-sh/ruff) package helps to conform to Python styleguides
+        -   TODO: Implement Ruff in a specific way
 
 8.  All files are machine-readable (.py, .R, .csv., .yaml, md, qmd).
 
