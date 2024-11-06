@@ -11,70 +11,70 @@ editor: visual
 
 ## Intro
 
-CEDA stands for Centre for Educational Data Analytics. It is a project within the pilot hub 'Studiedata & AI' (Educational data & AI) of the Npuls programme. ADD_LINK This document is for the basics to get working within CEDA. In order to be succinct the document is written in directive language, however, the intention is to support and enable everyone to spend time on the fun things. Many of the guidelines are derived from SURF or the Npuls programme.
+CEDA stands for Centre for Educational Data Analytics (of in goed Nederlands: Centrum voor Educatieve Data Analyse). It is a project within the [pilot hub 'Studiedata & AI' (Educational data & AI) of the Npuls programme](https://npuls.nl/studiedata-en-ai/). This document is for the basics to get working within CEDA. In order to be succinct the document is written in directive language, however, the intention is to support and enable everyone to spend time on the fun things. Many of the guidelines are derived from SURF or the Npuls programme.
 
 ## General
 
--   Working in this project is done through detachment. You get a detachment contract send to you by the HR Support (Flex). For any questions regarding this type of contracts, consult with them.
+-   Working in this project is done through detachment. You get a detachment contract send to you by the HR Support (Flex). For any questions regarding this type of contracts, consult with them first. If there is still confusion, cc the project lead.
 
--   SURF is the lead party of Npuls, therefore, many basics go through SURF environments.
+-   SURF is the lead party of Npuls, therefore, many basics go through SURF environments. Access to these basics is given via your SURF account.
 
--   When logging into SURF environments, eduVPN is often necessary. Without [eduVPN](https://www.eduvpn.org/), the site seems to be inaccessible. Login in with Institutional access and then SURF.
+-   When logging into SURF environments, eduVPN is often necessary. Without [eduVPN](https://www.eduvpn.org/), the site seems to be inaccessible. Login in with Institutional access and then select SURF as institution.
 
--   As part of the Npuls program, there is a request to fill in hours via [SAM](https://sam.surf.nl). This is done with your Npuls account.
+-   As part of the Npuls program, there is a request to fill in hours via [SAM](https://sam.surf.nl). This is done with your SURF account.
 
-    -   A link to the guide for keeping track of hours for 2024 ADD_LINK (not yet available)
+    -   When we all have SURF access a member will demonstrate it to other users. A more instruction can be find [within the SURF Sharepoint](https://surf.sharepoint.com/:p:/r/sites/m365-NpulsXR-team/_layouts/15/Doc.aspx?sourcedoc=%7B107685E1-EEDF-4DA0-868E-B8117FDEE53A%7D&file=PPT%20Uitleg%20uren%20basis%20SAM%20v2%20NL.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1).
 
-    -   You only have to add the hours you actually work, so no holidays or sick days (that still goes via your regular employer)
+    -   You only have to add the hours you actually work, so no holidays or sick days (that still goes via your regular employer). Within your detachement there is a number of hours (often 8). When you put in more hours on average please consult with the project lead how to decrease your workload.
 
--   Access to Teams and JIRA also goes via your Npuls / SURF account, ask the project lead for an invite link to the 'Studiedata team' within the larger SURF environment. You can also have a look at the SURF [intranet](https://surf.sharepoint.com/), the [Npuls area there](https://surf.sharepoint.com/sites/m365-NplsStAi-team/) and [Confluence](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
+-   Progress and communication is by default doen through JIRA and Teams and also goes via your SURF account, ask the project lead for an invite link to the 'Studiedata team' within the larger SURF environment. You can also have a look at the SURF [intranet](https://surf.sharepoint.com/), the [Npuls area there](https://surf.sharepoint.com/sites/m365-NplsStAi-team/) and [wiki](https://confluence.ia.surf.nl/pages/viewpage.action?spaceKey=NPLSSTAI&title=Npuls+Studiedata+en+Ai+Home).
 
--   They might ask if you want a laptop for your work at Npuls. Since most of you will only work 8 hours per week for 6 months, this seems to be an overkill.
+-   They might ask if you want a laptop for your work at Npuls. Since most of you will only work 8 hours per week for less than a year, this doesn't make much sense. The project lead has no SURF laptop either.
 
 ## Within CEDA
 
 -   We work mainly within an [open source github project](https://github.com/ed2c) where you get write-permissions. Let someone know if you want access on a specific account. (PS: the name ed2c refers to the old working title of ceda).
 
-    -   You can use any local git client, [Smartgit](http://www.syntevo.com/smartgit/download) is used by the team at the VU, but [Github Desktop](https://sourceforge.net/software/product/GitHub-Desktop/) and [GitKraken](https://www.gitkraken.com/download) are also used widely. In addition, you can work directly from the command-line with Git.
+    -   You can use any local git client, for [Smartgit](http://www.syntevo.com/smartgit/download) there is some working knowledge and documentation available, but [Github Desktop](https://sourceforge.net/software/product/GitHub-Desktop/) and [GitKraken](https://www.gitkraken.com/download) are also used widely. In addition, you can work directly from the command-line with Git if you prefer.
 
     -   IDE's often also have a (limited) internal git client.
 
-    -   For guidelines on commits see ways of working ADD_LINK
+    -   For guidelines on commits see the [ways of working](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/ways_of_working/ways_of_working.html#repository-guidelines) document.
 
-    -   For Smartgit we have some documentation available about installation and best practices. Let Corneel know if you are interested.
+    -   The project lead will invite you all on your institutional emailadress (so you keep access after your project is finished). If you prefer another emailadress, let the project lead know.
 
--   Within the pilot hub Study Data & AI, we keep track of our work on a Kanban Board. For this, as CEDA we have filters for [CEDA](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&selectedIssue=NPLSSTAI-8&quickFilter=2057) (issues within our project only) and [CEDA only me](https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=653&quickFilter=2058) (only your own stories).
-
-    -   For guidelines of the usage of the Kanboard board, see ways of working ADD_LINK
-
--   The project lead will invite all of you with your institutional and SURF email-adresses. If you prefer other emailadresses, let the project lead know.
+-   Within the pilot hub Study Data & AI, we keep track of our work on a Kanban Board. Again, for guidelines on the usage of Kanban, see the [ways of working](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/ways_of_working/ways_of_working.html#sharing-progress-asynchronously) document.
 
 ## Collaboration
 
--   Everyone has a sub-project where that person is in the lead. However, as you know, team work makes a dream work so collaboration / meeting across sub-projects are encouraged. In addition, you could benefit to CEDA as a whole.
+-   Everyone has a sub-project where that person is in the lead. However, as you know, team work makes a dream work so collaboration / meeting across sub-projects are encouraged. In addition, there are CEDA interal meetings and workshops.
 
--   Asynchronous contact with each other within the project is in the pilot hub done via Teams
+-   The proposed monthly schedule for collaboration is as follows:
 
-    -   QUESTION: Should we use this as well? Or something else?
+    -   Week 1 - Face-to-face meeting at SURF in Utrecht for a half-day including lunch
 
--   1-on-1 meetings with the project lead bi-weekly half an hour
+    -   Week 2 - Online stand-up for sharing progress, hold-ups and requests (\<30 minutes)
 
--   QUESTION: How often do we see each other and for how long? Every month (half) a day in Utrecht? Six weeks?
+    -   Week 3 - One-on-one with the project lead if deemed beneficial
 
--   QUESTION: Whatsapp / Signal group for random stuff?
+    -   Week 4 - Online stand-up for sharing progress, hold-ups and requests (\<30 minutes)
+
+-   The proposed tool for asynchronous contact with each other within the project is Teams
+
+-   Does anyone have other preferences or suggestions regarding the schedule or the tool?
 
 ## First Steps
 
--   See the ways-of-working document for the general expectations. Since we work agile there is no need to plan your whole project in detail.
+-   See the [ways of working](https://htmlpreview.github.io/?https://github.com/ed2c/centre_documentation/blob/main/ways_of_working/ways_of_working.html) document for the general expectations. Since we work agile there is no need to plan your whole project in detail.
 
-    -   **SUGGESTION:** **make a document of max 1 A4 with bullets of the minimum viable product you want to achieve in your project the coming 3 months**
+    -   **SUGGESTION:** **make a document of maximal 1 A4 with in bullet points:**
 
-        -   [Define three 'stories' (a story is approximately a day work) with the specific first steps you want to take]{.underline}
+        -   **the minimum viable product you want to achieve**
 
--   In addition, not everything has to be done (good). The most important 'business' goal is to get stuff working and share this with other data professionals in education.
+        -   **when you want to have a first workshop or working group meeting?**
 
--   The data engineering and the centre are not that crystallized yet, but individual members can also define first steps and general mvp for comings six months.
+        -   **Three 'stories' (a story is approximately a day work) with the specific first steps**
 
--   QUESTION: We need to have a kick-off of some sort. However, we are still in the hiring process, so it not yet clear how we can invite. Maybe the 'kick-off' after the first month? So end of February, start of March?
+-   In addition, not everything has to be done (perfect). The most important 'business' goal is to get stuff working and share this with other data professionals in education to see if it works for them. Of course, to do this properly structure within your project and code helps.
 
 ## 
