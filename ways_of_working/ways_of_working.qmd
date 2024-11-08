@@ -25,7 +25,7 @@ CEDA delivers the following types of activities:
     -   We build and actively share code and technical configuration for open source tooling that supports the sharing and (re-)usage of the data analytics repositories.
 3.  Alignment & Coordination
     -   Think of community contact, reference architecture and the role of analytics in flexibilisation.
-    -   We ensure that the results of the first two activities are aligned with:
+    -   We ensure that the results of the data analytics and engineering are aligned with:
         1.  the practical needs of (data analists in) educational institutions
         2.  the technical needs of the national data infrastructure
         3.  the strategic vision for Dutch tertiary education
@@ -122,19 +122,11 @@ While PowerBI and Azure are itself not open source, we can still deliver the log
 
 Based upon: [public code guidelines](https://htmlpreview.github.io/?https://github.com/publiccodenet/standard/blob/develop/docs/checklist.html) and adapted for data science.
 
-1.  Every repository has code that runs successfully.
+1.  A readme file which explains at least the goal of this repository and the context (how the acquire the start data and (a reference to) the outcome and impact of the outcome).
 
-2.  There is a config file which has a setting for at least every institution-specific setting.
+    -   CEDA strives to make a uniform readme file.
 
-    -   For instance, links to file locations, the name or BRIN of the institution, etc.
-
-3.  A build file. All code can be run by triggering one file.
-
-    1.  This can also be a how-to Quarto file with (technical) instructions.
-
-4.  A readme file which explains at least the goal of this repository and the context (how the acquire the start data and a reference to the outcome and impact of the outcome).
-
-5.  Every repository has a clear structure in line with the language-specific best practices for data science.
+2.  Every repository has a clear structure in line with the language-specific best practices for data science.
 
     -   For Python we will test the popular [cookiecutter data science](https://github.com/drivendataorg/cookiecutter-data-science) framework.
         -   Depending on our tests we can work with a limited version of this.
@@ -142,39 +134,54 @@ Based upon: [public code guidelines](https://htmlpreview.github.io/?https://gith
         -   The current R tooling is not one-on-one suited for our purposes.
         -   To get a possible example: <https://github.com/IndrajeetPatil/statsExpressions>
 
-6.  Data dictionaries at start and end.
+3.  Every repository has synthetic or dummy 'start' data.
+
+4.  There is a config file which has a setting for at least every institution-specific setting.
+
+    -   For instance, links to file locations, the name or BRIN of the institution, etc.
+
+5.  A correct working how-to Quarto file that explains and executes the underlying code step by step.
+
+    -   For Power BI repositories this is different.
+        -   Screenshots or a screencast might then be useful?
+
+6.  The main language in a repository is English. This goes for code, comments and documentation.
+
+    -   The repository name and column names can be (partly) Dutch due to specific terms.
+        -   Wiisselstroom for example, any translating would confuse most users.
+    -   In that case the data dictionary ensures that non-Dutch users can understand the terms.
+    -   As CEDA we strive to align the glossaries over all repositories.
+
+7.  Well styled code, also language specific.
+
+    -   Within in R the [lintr](https://lintr.r-lib.org/) package helps to conform to the tidyverse styleguide.
+        -   TODO: Add additional rules to lintr.
+    -   With Python the [ruff](https://github.com/astral-sh/ruff) package helps to conform to Python styleguides.
+        -   TODO: Implement Ruff in a specific way.
+
+8.  Files are machine-readable (.py, .R, .csv., .yaml, .json, md, qmd).
+
+9.  Data dictionaries at start and end.
 
     -   All the start data has a clear dictionary with metadata and meaning (description). This also goes for the resulting product.
         -   As CEDA we strive to have common dictionaries based on the type of repository (data, analysis or information) regardless of specific language.
 
-7.  Well styled code, also language specific.
+10. Every repository is 'complete'. It has synthetic data, necessary metadata, config, documentation, etc, within. Of course, it can have references to external sources, but the all the information should be findable from the repository.
 
-    -   Within in R the [lintr](https://lintr.r-lib.org/) package helps to conform to the tidyverse styleguide
-        -   TODO: Add additional rules to lintr
-    -   With Python the [ruff](https://github.com/astral-sh/ruff) package helps to conform to Python styleguides
-        -   TODO: Implement Ruff in a specific way
+For later on:
 
-8.  All files are machine-readable (.py, .R, .csv., .yaml, md, qmd).
+-   All the data files at start and end of the repository are automatically checked by validation rules.
 
-9.  All the data files at start and end of the repository are automatically checked by validation rules
-
-    -   As CEDA we strive to have uniform data validation rules
-
-10. Every repository has synthetic or dummy 'start' data
-
-11. The main language in a repository is English. This goes for code, comments and documentation. The repository name and column names can be (partly) Dutch for specific terms (wisselstroom for example, any translating would confuse most users). In that case the data dictionary ensures that non-Dutch users can understand the terms.
-
-    -   As CEDA we strive to align the glossaries over all repositories.
-
-12. Every repository is 'complete'. It has synthetic data, necessary metadata, config, documentation, etc, within.
+    -   As CEDA we strive to have uniform data validation rules and implementations
+    -   For instance, based on [great expectations](https://github.com/great-expectations/great_expectations) for Python and [validate](https://github.com/data-cleaning/validate) for R.
 
 ## Data analytics guidelines: Project
 
-One project might have more than one repository (for instance: a data product repository in which preparation takes place and information product repository with the visualisation). Besides this, the goal is not in and of itself the repisitory. So regardless of the repository, the following requirements must be met:
+Additionaly to the repository every project needs to
 
 1.  One or more workshops with data science professionals from other educational institutions to get it working for them
-2.  A working demo example oriented at end-users based on synthetic or dummy data
-3.  A blog oriented at end-users to describe the whole project, some interesting real world insights about your own institution and something about the **embedding** within your own institution
+    -   This is important to get feedback and to ensure that the product fullfills a need.
+2.  A blog or interview oriented at end-users to describe the whole project, some interesting real world insights about your own institution and something about the embedding within your own institution
 
 ## Data analytics guidelines: Steps towards goals
 
@@ -189,11 +196,10 @@ The first set of repositories is about getting from raw data to useful informati
 -   Setting up containerization and automation
 
     -   Think of Docker containers, config files, devcontainers and github actions.
+    -   This can also be added to the data analytics repositories
 
--   Develop repository structures, coding best practices, tests and automated tooling to ensure this works.
+-   Develop packages, repository structures, coding best practices, tests and automated tooling.
 
 -   Collaborate with the data analytics colleagues and projects regarding the application and development of these tools and practices.
 
 -   Experiment with open source tools in the Azure cloud. An important element is to find the limits of what we can get to work and document also the 'failures'. This is important, because CEDA could, if deemed useful, hire an external professional for advanced (cloud) engineering.
-
-## 

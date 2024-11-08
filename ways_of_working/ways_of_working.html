@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Corneel den Hartogh">
-<meta name="dcterms.date" content="2024-11-06">
+<meta name="dcterms.date" content="2024-11-08">
 
 <title>Ways of working</title>
 <style>
@@ -66,7 +66,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering">Data engineering</a>
   <ul class="collapse">
   <li><a href="#data-engineering-guidelines-activities" id="toc-data-engineering-guidelines-activities" class="nav-link" data-scroll-target="#data-engineering-guidelines-activities">Data engineering guidelines: Activities</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ways_of_working.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -92,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2024</p>
+      <p class="date">November 8, 2024</p>
     </div>
   </div>
   
@@ -125,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Alignment &amp; Coordination
 <ul>
 <li>Think of community contact, reference architecture and the role of analytics in flexibilisation.</li>
-<li>We ensure that the results of the first two activities are aligned with:
+<li>We ensure that the results of the data analytics and engineering are aligned with:
 <ol type="1">
 <li>the practical needs of (data analists in) educational institutions</li>
 <li>the technical needs of the national data infrastructure</li>
@@ -139,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>General</h1>
 <section id="sharing-progress-asynchronously" class="level2">
 <h2 class="anchored" data-anchor-id="sharing-progress-asynchronously">Sharing progress asynchronously</h2>
-<p>Since we all have other responsibilities (at our primary employer) and don’t see each other daily, it is important to share our progress transparently and asynchronously. See the basics document for a link.</p>
+<p>Since we all have other responsibilities (at our primary employer) and don’t see each other daily, it is important to share our progress transparently and asynchronously.</p>
 <p>For guidelines per issue see:</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -164,6 +163,7 @@ Issue guidelines
 </div>
 </div>
 </div>
+<p>This results in an <a href="https://jira.ia.surf.nl/secure/RapidBoard.jspa?rapidView=854&amp;projectKey=NPLSSTAI#">overview</a>, with the quick filters ‘only my issues’ and ‘recently updated’ available to limit the scope of issues.</p>
 </section>
 <section id="repository-guidelines" class="level2">
 <h2 class="anchored" data-anchor-id="repository-guidelines">Repository guidelines</h2>
@@ -260,16 +260,10 @@ Issue guidelines
 <h2 class="anchored" data-anchor-id="data-analytics-guidelines-content-of-repository">Data analytics guidelines: Content of repository</h2>
 <p>Based upon: <a href="https://htmlpreview.github.io/?https://github.com/publiccodenet/standard/blob/develop/docs/checklist.html">public code guidelines</a> and adapted for data science.</p>
 <ol type="1">
-<li><p>Every repository has code that runs successfully.</p></li>
-<li><p>There is a config file which has a setting for at least every institution-specific setting.</p>
+<li><p>A readme file which explains at least the goal of this repository and the context (how the acquire the start data and (a reference to) the outcome and impact of the outcome).</p>
 <ul>
-<li>For instance, links to file locations, the name or BRIN of the institution, etc.</li>
+<li>CEDA strives to make a uniform readme file.</li>
 </ul></li>
-<li><p>A build file. All code can be run by triggering one file.</p>
-<ol type="1">
-<li>This can also be a how-to Quarto file with (technical) instructions.</li>
-</ol></li>
-<li><p>A readme file which explains at least the goal of this repository and the context (how the acquire the start data and a reference to the outcome and impact of the outcome).</p></li>
 <li><p>Every repository has a clear structure in line with the language-specific best practices for data science.</p>
 <ul>
 <li>For Python we will test the popular <a href="https://github.com/drivendataorg/cookiecutter-data-science">cookiecutter data science</a> framework.
@@ -282,6 +276,39 @@ Issue guidelines
 <li>To get a possible example: <a href="https://github.com/IndrajeetPatil/statsExpressions" class="uri">https://github.com/IndrajeetPatil/statsExpressions</a></li>
 </ul></li>
 </ul></li>
+<li><p>Every repository has synthetic or dummy ‘start’ data.</p></li>
+<li><p>There is a config file which has a setting for at least every institution-specific setting.</p>
+<ul>
+<li>For instance, links to file locations, the name or BRIN of the institution, etc.</li>
+</ul></li>
+<li><p>A correct working how-to Quarto file that explains and executes the underlying code step by step.</p>
+<ul>
+<li>For Power BI repositories this is different.
+<ul>
+<li>Screenshots or a screencast might then be useful?</li>
+</ul></li>
+</ul></li>
+<li><p>The main language in a repository is English. This goes for code, comments and documentation.</p>
+<ul>
+<li>The repository name and column names can be (partly) Dutch due to specific terms.
+<ul>
+<li>Wiisselstroom for example, any translating would confuse most users.</li>
+</ul></li>
+<li>In that case the data dictionary ensures that non-Dutch users can understand the terms.</li>
+<li>As CEDA we strive to align the glossaries over all repositories.</li>
+</ul></li>
+<li><p>Well styled code, also language specific.</p>
+<ul>
+<li>Within in R the <a href="https://lintr.r-lib.org/">lintr</a> package helps to conform to the tidyverse styleguide.
+<ul>
+<li>TODO: Add additional rules to lintr.</li>
+</ul></li>
+<li>With Python the <a href="https://github.com/astral-sh/ruff">ruff</a> package helps to conform to Python styleguides.
+<ul>
+<li>TODO: Implement Ruff in a specific way.</li>
+</ul></li>
+</ul></li>
+<li><p>Files are machine-readable (.py, .R, .csv., .yaml, .json, md, qmd).</p></li>
 <li><p>Data dictionaries at start and end.</p>
 <ul>
 <li>All the start data has a clear dictionary with metadata and meaning (description). This also goes for the resulting product.
@@ -289,30 +316,26 @@ Issue guidelines
 <li>As CEDA we strive to have common dictionaries based on the type of repository (data, analysis or information) regardless of specific language.</li>
 </ul></li>
 </ul></li>
-<li><p>Well styled code, also language specific.</p>
-<ul>
-<li>As CEDA we strive to more precise guidelines about code, in order to make repositories more alike each other</li>
-</ul></li>
-<li><p>All files are machine-readable (.py, .R, .csv., .yaml, md, qmd).</p></li>
-<li><p>All the data files at start and end of the repository are automatically checked by validation rules</p>
-<ul>
-<li>As CEDA we strive to have uniform data validation rules</li>
-</ul></li>
-<li><p>Every repository has synthetic or dummy ‘start’ data</p></li>
-<li><p>The main language in a repository is English. This goes for code, comments and documentation. The repository name and column names can be (partly) Dutch for specific terms (wisselstroom for example, any translating would confuse most users). In that case the data dictionary ensures that non-Dutch users can understand the terms.</p>
-<ul>
-<li>As CEDA we strive to align the glossaries over all repositories.</li>
-</ul></li>
-<li><p>Every repository is ‘complete’. It has synthetic data, necessary metadata, config, documentation, etc, within.</p></li>
+<li><p>Every repository is ‘complete’. It has synthetic data, necessary metadata, config, documentation, etc, within. Of course, it can have references to external sources, but the all the information should be findable from the repository.</p></li>
 </ol>
+<p>For later on:</p>
+<ul>
+<li><p>All the data files at start and end of the repository are automatically checked by validation rules.</p>
+<ul>
+<li>As CEDA we strive to have uniform data validation rules and implementations</li>
+<li>For instance, based on <a href="https://github.com/great-expectations/great_expectations">great expectations</a> for Python and <a href="https://github.com/data-cleaning/validate">validate</a> for R.</li>
+</ul></li>
+</ul>
 </section>
 <section id="data-analytics-guidelines-project" class="level2">
 <h2 class="anchored" data-anchor-id="data-analytics-guidelines-project">Data analytics guidelines: Project</h2>
-<p>One project might have more than one repository (for instance: a data product repository in which preparation takes place and information product repository with the visualisation). Besides this, the goal is not in and of itself the repisitory. So regardless of the repository, the following requirements must be met:</p>
+<p>Additionaly to the repository every project needs to</p>
 <ol type="1">
-<li>One or more workshops with data science professionals from other educational institutions to get it working for them</li>
-<li>A working demo example oriented at end-users based on synthetic or dummy data</li>
-<li>A blog oriented at end-users to describe the whole project, some interesting real world insights about your own institution and something about the <strong>embedding</strong> within your own institution</li>
+<li>One or more workshops with data science professionals from other educational institutions to get it working for them
+<ul>
+<li>This is important to get feedback and to ensure that the product fullfills a need.</li>
+</ul></li>
+<li>A blog or interview oriented at end-users to describe the whole project, some interesting real world insights about your own institution and something about the embedding within your own institution</li>
 </ol>
 </section>
 <section id="data-analytics-guidelines-steps-towards-goals" class="level2">
@@ -329,14 +352,12 @@ Issue guidelines
 <li><p>Setting up containerization and automation</p>
 <ul>
 <li>Think of Docker containers, config files, devcontainers and github actions.</li>
+<li>This can also be added to the data analytics repositories</li>
 </ul></li>
-<li><p>Develop repository structures, coding best practices, tests and automated tooling to ensure this works.</p></li>
+<li><p>Develop packages, repository structures, coding best practices, tests and automated tooling.</p></li>
 <li><p>Collaborate with the data analytics colleagues and projects regarding the application and development of these tools and practices.</p></li>
 <li><p>Experiment with open source tools in the Azure cloud. An important element is to find the limits of what we can get to work and document also the ‘failures’. This is important, because CEDA could, if deemed useful, hire an external professional for advanced (cloud) engineering.</p></li>
 </ul>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
 </section>
 </section>
 
