@@ -122,30 +122,34 @@ While PowerBI and Azure are itself not open source, we can still deliver the log
 
 Based upon: [public code guidelines](https://htmlpreview.github.io/?https://github.com/publiccodenet/standard/blob/develop/docs/checklist.html) and adapted for data science.
 
-1.  A readme file which explains at least the goal of this repository and the context (how the acquire the start data and (a reference to) the outcome and impact of the outcome).
+1.  A readme file which starts with one or two paragraphs that explain the added value when the complete analysis is applied and embedded in an educational institution. So, this is the 'product vision' or the 'why' of your complete product (much more than your CEDA MVP). Add, if possible a stylized screenshot (again, this doesn't have to be your MVP, but can be an internal dashboard or non-working prototype). See the [instroomprognose repo](https://github.com/cedanl/studentprognose).
 
-    -   CEDA strives to make a uniform readme file.
+    -   This few paragraphs are aimed at decision-makers of Dutch educational institutions and can therefore be in Dutch.
+    -   Later on, the readme file should discuss the context of the usage (or reference external sites with context) and should provide the basic of technical documentation.
 
-2.  Every repository has a clear structure in line with the language-specific best practices for data science.
+2.  A how-to Quarto file that explains and executes the code step by step.
+
+    -   For Power BI repositories this is different.
+        -   Screenshots or a screencast can be helpful. See the [1Cijfer PowerBI repo](https://github.com/cedanl/1cho_ins_visualisation_powerbi/wiki#how-to-overlay)
+    -   This Quarto file can function as a 'prototype' at the start. The functions don't have to all present and working (yet).
+        -   Later on, at MVP stage, the file should render successfully. Still, some functions might be commented out since they are not part of the minimum. However, they are part of your 'prototype'.
+
+3.  Every repository has a clear structure in line with the language-specific best practices for data science.
 
     -   For Python we will test the popular [cookiecutter data science](https://github.com/drivendataorg/cookiecutter-data-science) framework.
         -   Depending on our tests we can work with a limited version of this.
     -   For R we will use a package with additional files for interactive use.
-        -   The current R tooling is not one-on-one suited for our purposes.
-        -   To get a possible example: <https://github.com/IndrajeetPatil/statsExpressions>
-
-3.  Every repository has synthetic or dummy 'start' data.
+        -   To see a possible example: <https://github.com/IndrajeetPatil/statsExpressions>
+        -   We will decide on the specific folders and files
+    -   Together with the Quarto file this is your 'prototype'. Even when all the folders aren't filled yet it shows potential users (data professional within an institution) what the repository will use.
 
 4.  There is a config file which has a setting for at least every institution-specific setting.
 
     -   For instance, links to file locations, the name or BRIN of the institution, etc.
 
-5.  A correct working how-to Quarto file that explains and executes the underlying code step by step.
+5.  Every repository has synthetic or dummy 'start' data.
 
-    -   For Power BI repositories this is different.
-        -   Screenshots or a screencast might then be useful?
-
-6.  The main language in a repository is English. This goes for code, comments and documentation.
+6.  The main language in a repository is English. This goes for code, comments and technical documentation.
 
     -   The repository name and column names can be (partly) Dutch due to specific terms.
         -   Wiisselstroom for example, any translating would confuse most users.
@@ -159,7 +163,7 @@ Based upon: [public code guidelines](https://htmlpreview.github.io/?https://gith
     -   With Python the [ruff](https://github.com/astral-sh/ruff) package helps to conform to Python styleguides.
         -   TODO: Implement Ruff in a specific way.
 
-8.  Files are machine-readable (.py, .R, .csv., .yaml, .json, md, qmd).
+8.  Files are machine-readable (.py, .R, .csv, .yaml, .json, .md, .qmd).
 
 9.  Data dictionaries at start and end.
 

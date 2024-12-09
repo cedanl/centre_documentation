@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Corneel den Hartogh">
-<meta name="dcterms.date" content="2024-11-08">
+<meta name="dcterms.date" content="2024-12-09">
 
 <title>Ways of working</title>
 <style>
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 8, 2024</p>
+      <p class="date">December 9, 2024</p>
     </div>
   </div>
   
@@ -260,9 +260,21 @@ Issue guidelines
 <h2 class="anchored" data-anchor-id="data-analytics-guidelines-content-of-repository">Data analytics guidelines: Content of repository</h2>
 <p>Based upon: <a href="https://htmlpreview.github.io/?https://github.com/publiccodenet/standard/blob/develop/docs/checklist.html">public code guidelines</a> and adapted for data science.</p>
 <ol type="1">
-<li><p>A readme file which explains at least the goal of this repository and the context (how the acquire the start data and (a reference to) the outcome and impact of the outcome).</p>
+<li><p>A readme file which starts with one or two paragraphs that explain the added value when the complete analysis is applied and embedded in an educational institution. So, this is the ‘product vision’ or the ‘why’ of your complete product (much more than your CEDA MVP). Add, if possible a stylized screenshot (again, this doesn’t have to be your MVP, but can be an internal dashboard or non-working prototype). See the <a href="https://github.com/cedanl/studentprognose">instroomprognose repo</a>.</p>
 <ul>
-<li>CEDA strives to make a uniform readme file.</li>
+<li>This few paragraphs are aimed at decision-makers of Dutch educational institutions and can therefore be in Dutch.</li>
+<li>Later on, the readme file should discuss the context of the usage (or reference external sites with context) and should provide the basic of technical documentation.</li>
+</ul></li>
+<li><p>A how-to Quarto file that explains and executes the code step by step.</p>
+<ul>
+<li>For Power BI repositories this is different.
+<ul>
+<li>Screenshots or a screencast can be helpful. See the <a href="https://github.com/cedanl/1cho_ins_visualisation_powerbi/wiki#how-to-overlay">1Cijfer PowerBI repo</a></li>
+</ul></li>
+<li>This Quarto file can function as a ‘prototype’ at the start. The functions don’t have to all present and working (yet).
+<ul>
+<li>Later on, at MVP stage, the file should render successfully. Still, some functions might be commented out since they are not part of the minimum. However, they are part of your ‘prototype’.</li>
+</ul></li>
 </ul></li>
 <li><p>Every repository has a clear structure in line with the language-specific best practices for data science.</p>
 <ul>
@@ -272,23 +284,17 @@ Issue guidelines
 </ul></li>
 <li>For R we will use a package with additional files for interactive use.
 <ul>
-<li>The current R tooling is not one-on-one suited for our purposes.</li>
-<li>To get a possible example: <a href="https://github.com/IndrajeetPatil/statsExpressions" class="uri">https://github.com/IndrajeetPatil/statsExpressions</a></li>
+<li>To see a possible example: <a href="https://github.com/IndrajeetPatil/statsExpressions" class="uri">https://github.com/IndrajeetPatil/statsExpressions</a></li>
+<li>We will decide on the specific folders and files</li>
 </ul></li>
+<li>Together with the Quarto file this is your ‘prototype’. Even when all the folders aren’t filled yet it shows potential users (data professional within an institution) what the repository will use.</li>
 </ul></li>
-<li><p>Every repository has synthetic or dummy ‘start’ data.</p></li>
 <li><p>There is a config file which has a setting for at least every institution-specific setting.</p>
 <ul>
 <li>For instance, links to file locations, the name or BRIN of the institution, etc.</li>
 </ul></li>
-<li><p>A correct working how-to Quarto file that explains and executes the underlying code step by step.</p>
-<ul>
-<li>For Power BI repositories this is different.
-<ul>
-<li>Screenshots or a screencast might then be useful?</li>
-</ul></li>
-</ul></li>
-<li><p>The main language in a repository is English. This goes for code, comments and documentation.</p>
+<li><p>Every repository has synthetic or dummy ‘start’ data.</p></li>
+<li><p>The main language in a repository is English. This goes for code, comments and technical documentation.</p>
 <ul>
 <li>The repository name and column names can be (partly) Dutch due to specific terms.
 <ul>
@@ -308,7 +314,7 @@ Issue guidelines
 <li>TODO: Implement Ruff in a specific way.</li>
 </ul></li>
 </ul></li>
-<li><p>Files are machine-readable (.py, .R, .csv., .yaml, .json, md, qmd).</p></li>
+<li><p>Files are machine-readable (.py, .R, .csv, .yaml, .json, .md, .qmd).</p></li>
 <li><p>Data dictionaries at start and end.</p>
 <ul>
 <li>All the start data has a clear dictionary with metadata and meaning (description). This also goes for the resulting product.
